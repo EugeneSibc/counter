@@ -1,6 +1,9 @@
 .App {
-  text-align: center;
-}
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  }
 
 .App-logo {
   height: 40vmin;
@@ -35,4 +38,31 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.counter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid blue;
+  min-height: 400px;
+  width: 300px
+}
+.button-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid blue;
+}
+.display {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid blue;
+  width:250px;
+  height: 200px;
+}
+.max-value {
+  color:red
 }
